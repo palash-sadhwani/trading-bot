@@ -26,21 +26,37 @@ The application is designed with a clean modular architecture, proper logging, a
 
 
 trading-bot/
-│
+
+
+
 ├── client/
+
 │ ├── init.py
+
 │ └── binance_client.py # Binance API wrapper
-│
+
+
+
 ├── cli/
+
 │ ├── init.py
+
 │ └── main.py # CLI entry point
-│
+
+
+
 ├── logs/
+
 │ └── bot.log # Execution logs
-│
-├── screenshots/ # Output screenshots (optional)
-│
+
+
+
+├── screenshots/ 
+
+
+
 ├── requirements.txt
+
 └── README.md
 
 
